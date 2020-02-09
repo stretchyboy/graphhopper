@@ -51,6 +51,9 @@ public class DefaultFlagEncoderFactory implements FlagEncoderFactory {
         if (name.equals(HIKE))
             return new HikeFlagEncoder(configuration);
 
+        if (name.equals(RUN))
+            return new RunFlagEncoder(configuration);
+
         if (name.equals(MOTORCYCLE))
             return new MotorcycleFlagEncoder(configuration);
 

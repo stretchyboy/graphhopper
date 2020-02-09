@@ -31,6 +31,7 @@ public interface FlagEncoderFactory {
     String MOUNTAINBIKE = "mtb";
     String FOOT = "foot";
     String HIKE = "hike";
+    String RUN = "run";
     String MOTORCYCLE = "motorcycle";
     String WHEELCHAIR = "wheelchair";
 
